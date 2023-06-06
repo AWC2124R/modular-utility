@@ -39,7 +39,7 @@ app.post('/login', async (req, res) => {
    }
  
    // Login successful
-   return res.json({ message: 'Logged in successfully' });
+   return res.json({ message: 'User Logged.' });
 });
 
 app.post('/register', async (req, res) => {
@@ -56,7 +56,7 @@ app.post('/register', async (req, res) => {
  
    await newUser.save();
  
-   return res.json({ message: 'User registered successfully' });
+   return res.json({ message: 'User Registered.' });
 });
 
 // User.collection.drop()
