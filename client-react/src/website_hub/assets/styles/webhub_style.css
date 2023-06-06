@@ -1,0 +1,10 @@
+:root {
+    --namecard-width: 20vw;
+    --namecard-height: 15vw;
+}
+
+.webhub-container {
+    position: absolute;
+
+    left: 50vw;
+}
